@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import BuyNow from './pages/BuyNow'
+import ContactSection from './pages/Contact'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/buy-now" element={<BuyNow />} />
+        <Route path="/contact" element={<ContactSection />} />
       </Routes>
     </div>
   )

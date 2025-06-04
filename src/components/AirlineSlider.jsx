@@ -5,6 +5,7 @@ import { Autoplay } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/autoplay';
 
 const airlineLogos = [
   { name: 'Turkish Airlines', src: assets.turkish },
@@ -19,8 +20,8 @@ const airlineLogos = [
 
 export default function AirlineSlider() {
   return (
-    <div className="py-10 relative bg-gradient-to-r from-cyan-100 to-teal-100">
-      <h2 className="text-center text-2xl md:text-3xl font-bold text-[#1C3D99] mb-10">
+    <div className="py-10 relative max-w-full sm:max-w-3xl md:max-w-5xl lg:max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 className="text-center text-2xl md:text-3xl font-bold text-[#1C3D99] mb-10 px-2 sm:px-0">
         We book dummy ticket with trusted airline companies
       </h2>
       <Swiper
@@ -28,12 +29,14 @@ export default function AirlineSlider() {
         spaceBetween={32}
         slidesPerView={4}
         loop={true}
+        loopedSlides={airlineLogos.length}  // Helps with smooth loop
         autoplay={{
-          delay: 2000,           // Set delay to 2 seconds or your preferred value
+          delay: 2000,
           disableOnInteraction: false,
           pauseOnMouseEnter: false,
         }}
-        speed={1000}             // Speed of slide transition (1 second)
+        speed={1000}
+        watchOverflow={true}  // Disable swiper if not enough slides
         className="w-full"
         breakpoints={{
           320: { slidesPerView: 2, spaceBetween: 16 },
