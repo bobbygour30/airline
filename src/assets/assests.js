@@ -1,4 +1,4 @@
-import Logo from "./logo.png";
+import Logo from "./Logo.png";
 import download from "./download.png";
 import airfrance from "./air-france.svg";
 import emirates from "./emirates.svg";
