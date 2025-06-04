@@ -27,7 +27,7 @@ const HeroSection = () => {
           <img
             src={assets.download}
             alt="Dummy Ticket"
-            className="w-full max-w-sm sm:max-w-md object-contain"
+            className="w-[70%] max-w-sm sm:max-w-md object-contain rounded"
           />
         </div>
       </div>

@@ -35,7 +35,7 @@ const CombinedForm = ({
   };
 
   return (
-    <div className="bg-gradient-to-br from-cyan-50 to-teal-50 p-4 md:p-8 flex justify-center items-start min-h-screen">
+    <div className=" p-4 md:p-8 flex justify-center items-start min-h-screen">
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Left Section */}
         <div className="md:col-span-2 space-y-6">

@@ -36,10 +36,10 @@ const pricingData = [
 ];
 
 const PricingCard = ({ title, price, details }) => (
-  <div className="bg-[#A9D9D3]/20 rounded-2xl w-full max-w-sm mx-auto sm:mx-0">
-    <div className="bg-blue-900 rounded-t-2xl p-4">
-      <h2 className="text-xl sm:text-2xl font-bold text-cyan-100 text-center mb-2">{title}</h2>
-      <p className="text-3xl sm:text-4xl font-extrabold text-center text-cyan-100">
+  <div className="bg-gradient-to-r from-orange-100 to-sky-100 rounded-2xl w-full max-w-sm mx-auto sm:mx-0">
+    <div className="bg-sky-200 rounded-t-2xl p-4">
+      <h2 className="text-xl sm:text-2xl font-bold text-red-500 text-center mb-2">{title}</h2>
+      <p className="text-3xl sm:text-4xl font-extrabold text-center text-red-500">
         {price}
         <span className="text-sm sm:text-base font-normal"> /Person</span>
       </p>
@@ -47,8 +47,8 @@ const PricingCard = ({ title, price, details }) => (
     <ul className="mt-4 space-y-4 sm:space-y-6 text-gray-700 p-4">
       {details.map((item, index) => (
         <li key={index} className="flex items-start">
-          <span className="text-blue-600 font-bold mr-2">✓</span>
-          <span className="text-sm sm:text-base text-blue-900">{item}</span>
+          <span className="text-black font-bold mr-2">✓</span>
+          <span className="text-sm sm:text-base text-black">{item}</span>
         </li>
       ))}
     </ul>
@@ -62,7 +62,7 @@ const PricingCard = ({ title, price, details }) => (
 
 export default function PricingCards() {
   return (
-    <div className="bg-cyan-100 min-h-screen flex flex-col items-center justify-center p-6 sm:p-12">
+    <div className=" flex flex-col items-center justify-center p-6 sm:p-12">
       <h1 className="font-bold text-blue-900 text-3xl sm:text-4xl mb-16 sm:mb-20 text-center">
         Pricing
       </h1>

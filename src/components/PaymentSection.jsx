@@ -22,7 +22,7 @@ const PaymentSection = ({ totalAmount, onBack }) => {
   };
 
   return (
-    <div className="bg-cyan-100 p-4 sm:p-8 flex justify-center items-center min-h-[80vh]">
+    <div className="bg-gradient-to-r from-orange-100 to-sky-100 p-4 sm:p-8 flex justify-center items-center min-h-[80vh]">
       <div className="w-full max-w-xl bg-white rounded-lg shadow-lg p-6 sm:p-8">
         <h2 className="text-2xl font-bold text-blue-900 mb-6 text-center">
           Payment

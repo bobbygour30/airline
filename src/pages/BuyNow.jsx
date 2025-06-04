@@ -47,7 +47,7 @@ const BuyNow = () => {
     return (
       <>
         <Navbar />
-        <div className="bg-cyan-100 p-6 sm:p-8 flex justify-center items-center min-h-[calc(100vh-64px)]">
+        <div className="bg-gradient-to-r from-orange-100 to-sky-100 p-6 sm:p-8 flex justify-center items-center min-h-[calc(100vh-64px)]">
           <div className="w-full max-w-4xl px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl sm:text-3xl font-bold text-blue-900 text-center mb-6">
               TYPE

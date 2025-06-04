@@ -27,7 +27,7 @@ const ContactSection = () => {
 
   return (
     <><Navbar/>
-    <div className="bg-cyan-100 py-12 flex justify-center items-center">
+    <div className="bg-gradient-to-r from-orange-100 to-sky-100 py-12 flex justify-center items-center">
       <div className="w-full max-w-5xl px-6">
         <h2 className="text-4xl font-bold text-blue-900 text-center mb-10">
           Get In Touch With Us

@@ -18,7 +18,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white py-10 px-4 sm:px-8 md:px-16">
+    <footer className="bg-gray-500 text-white py-10 px-4 sm:px-8 md:px-16">
       <h3 className="text-xl sm:text-2xl font-bold text-center mb-6">Social Channels</h3>
 
       <div className="flex flex-wrap justify-center gap-4 mb-6 text-2xl sm:text-3xl">
